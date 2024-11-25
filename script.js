@@ -76,10 +76,12 @@ function playRound(computerChoice, humanChoice){
     }
 
     if (winner === 'human') {
-            console.log(capitalizeFirstLetter(humanChoice), "beats", computerChoice, "! You win!")
+            console.log(capitalizeFirstLetter(humanChoice), "beats", 
+                computerChoice, "! You win!")
             humanScore++;
     } else if (winner === 'computer') {
-            console.log(capitalizeFirstLetter(computerChoice), "beats", humanChoice, "! You lose!")
+            console.log(capitalizeFirstLetter(computerChoice), "beats", 
+                humanChoice, "! You lose!")
             computerScore++
     } else {
             console.log("Tie!")
