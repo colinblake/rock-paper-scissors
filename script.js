@@ -1,16 +1,6 @@
 let humanScore = 0;
 let computerScore = 0;
 
-// function getHumanChoice() {
-//     let humanChoice = null;
-//     do{
-//         humanChoice = prompt("Rock, Paper, or Scissors?").toLowerCase()
-//     } while (!['rock', 'paper', 'scissors'].includes(humanChoice));
-
-//     console.log("Human choice:", humanChoice);
-//     return humanChoice;
-// }
-
 function getComputerChoice() {
     let random = Math.random() * 3;
     if (random <= 1) {
